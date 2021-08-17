@@ -1,0 +1,32 @@
+/* 底部 */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #f5f5f5;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.footer .item {
+  width: 25%;
+  height: 100%;
+  padding: 0.7em 0em;
+  text-align: center;
+  color: #666666;
+  transition: all ease-in 0.2s;
+}
+.footer .item span {
+  display: block;
+  text-align: center;
+  font-size: 1.2em;
+}
+.footer .item span:first-child {
+  margin-bottom: 0.2em;
+}
+.footer .item:hover {
+  background: #1c91dd;
+  color: #fff;
+}

@@ -1,0 +1,122 @@
+.user {
+  background: url(../images/person-bg.png) no-repeat;
+  background-size: cover;
+  height: 20em;
+}
+.user .sheet {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  position: relative;
+  font-family: SHSC;
+}
+.user .sheet .port {
+  width: 100%;
+  text-align: center;
+  margin-top: 6em;
+  position: absolute;
+  z-index: 1000;
+}
+.user .sheet .port img {
+  border: 2px solid #fff;
+  border-radius: 100%;
+}
+.user .sheet .details {
+  margin-top: 9em;
+  padding-top: 5em ;
+  width: 90%;
+  text-align: center;
+  background: #fff;
+  border-radius: 0.5em;
+  position: absolute;
+  z-index: 999;
+  box-shadow: 1px 3px 10px #cecece;
+}
+.user .sheet .details h4 {
+  color: #f58f5c;
+  margin-bottom: 0.5em;
+  font-size: 1em;
+}
+.user .sheet .details p {
+  margin-bottom: 1em;
+  color: #cecece;
+  font-size: 0.8em;
+}
+.user .sheet .details .data {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.user .sheet .details .data .whole {
+  width: 20%;
+  font-size: 1.2em;
+  color: #525252;
+}
+.user .sheet .details .data .whole p {
+  color: #696969;
+}
+.order {
+  margin-top: 2em;
+  width: 90%;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 4em;
+  border-radius: 0.5em;
+  box-shadow: 2px 3px 10px #cecece;
+  padding: 0.5em 0em;
+}
+.order .top {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 0em 0.5em;
+}
+.order .top .top-l {
+  width: 10%;
+}
+.order .top .top-r {
+  width: 10%;
+}
+.order .btm {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 1em;
+}
+.order .btm .list {
+  width: 15%;
+  text-align: center;
+}
+.order .btm .list img {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 0.5em;
+}
+.order .btm .list p {
+  font-size: 0.6em;
+}
+.last h1 {
+  color: #f58f5c;
+  font-size: 1.3em;
+  text-align: center;
+  margin: 1em 0em;
+}
+.last .last-p {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.last .last-p .p-left {
+  width: 49%;
+}
+.last .last-p .p-left img {
+  margin-bottom: 0.5em;
+}
+.last .last-p .p-right {
+  width: 49%;
+}

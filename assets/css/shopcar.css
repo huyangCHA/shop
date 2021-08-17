@@ -1,0 +1,129 @@
+.title {
+  position: inherit;
+  background: url(../images/shopcarbg.png) no-repeat;
+  background: cover;
+  height: 13em;
+}
+.title .car p {
+  padding-top: 0.8em;
+  text-align: center;
+  font-size: 1.3em;
+  color: #fff;
+}
+.title .car p span {
+  float: right;
+  font-size: 0.8em;
+  margin-right: 0.8em;
+}
+.car-list h4 {
+  font-size: 1.2em;
+  color: #fff;
+  margin-top: -6em;
+  margin-left: 1.5em;
+  font-family: SHSC;
+}
+.car-list .car-shop {
+  width: 90%;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 1em;
+  padding: 1em 1em;
+  box-shadow: 0px 2px 5px #d6d6d6;
+  margin-bottom: 1em;
+}
+.car-list .car-shop .top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #d6d6d6;
+}
+.car-list .car-shop .top .top-left {
+  width: 45%;
+}
+.car-list .car-shop .top .top-left input {
+  transform: scale(1.5);
+  margin-right: 0.8em;
+}
+.car-list .car-shop .top .top-left span {
+  color: #787878;
+}
+.car-list .car-shop .top .top-right {
+  width: 5%;
+}
+.car-list .car-shop .btm {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2em;
+  flex-wrap: wrap;
+}
+.car-list .car-shop .btm .btm-left {
+  width: 30%;
+}
+.car-list .car-shop .btm .btm-left input {
+  transform: scale(1.5);
+  margin-right: 0.8em;
+}
+.car-list .car-shop .btm .btm-right {
+  width: 60%;
+}
+.car-list .car-shop .btm .btm-right p {
+  font-family: SHSC;
+  color: #787878;
+}
+.car-list .car-shop .btm .btm-right .time {
+  background: #f4f4f4;
+  border-radius: 5px;
+  width: 5em;
+}
+.car-list .car-shop .btm .bbtm {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.car-list .car-shop .btm .bbtm .bbtm-left {
+  color: red;
+  font-size: 1.5em;
+  font-family: SHSC;
+  font-weight: bold;
+}
+.iflike {
+  width: 100%;
+}
+.iflike h1 {
+  text-align: center;
+  font-size: 2em;
+  color: #f58f5c;
+}
+.iflike .like {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.iflike .like .one {
+  width: 45%;
+  border-radius: 1em;
+}
+.iflike .like .one img {
+  border-radius: 1em;
+}
+.iflike .like .one .like-b {
+  display: flex;
+  justify-content: space-between;
+}
+.iflike .like .one .like-b p {
+  font-family: SHSC;
+  color: red;
+}
+.iflike .like .one .like-b p span {
+  font-size: 1.5em;
+}
+.iflike .like .one .like-b button {
+  background: #d6a074;
+  color: #fff;
+  font-family: SHSC;
+  border: 0px;
+  border-radius: 0.5em;
+}
